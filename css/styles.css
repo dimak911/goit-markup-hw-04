@@ -119,6 +119,17 @@ img {
   color: var(--prime-color);
 }
 
+.mail-icon-box {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 10px;
+}
+
+.icon-envelope {
+  fill: currentColor;
+}
+
 .contacts-link {
   display: inline-block;
   padding-top: 32px;
@@ -146,8 +157,17 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 600px;
+  max-width: 1600px;
 
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero.jpg');
   background-color: var(--prime-background-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-text {
